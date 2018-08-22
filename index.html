@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>毕设季</title>
+    <script src="js/jquery-1.11.1.js"></script>
+    <script src="layui/layui.all.js"></script>
+    <link rel="stylesheet" href="layui/css/layui.css">
+</head>
+<body>
+    <ul class="layui-nav" id="symbol">
+      <li class="layui-nav-item" >
+        <i class=" layui-icon layui-icon-tree" style="font-size: 2em;"></i>
+      </li>
+        <li class="layui-nav-item layui-this" >
+            <a href="javascript:;">首页</a>
+        </li>
+        <li class="layui-nav-item " style="margin-left: 2%">
+          <a href="javascript:;">公告栏</a> <span class="layui-badge-dot layui-bg-red"></span></li>
+        <li class="layui-nav-item " >
+          <a href="javascript:;">作品集结</a>
+          <dl class="layui-nav-child">
+            <dd><a href="">选项1</a></dd>
+            <dd><a href="">选项2</a></dd>
+            <dd><a href="">选项3</a></dd>
+          </dl>
+        </li>
+        <li class="layui-nav-item"><a href="javascript:;">个人中心</a></li>
+        <li class="layui-nav-item">
+          <a href="javascript:;">意见箱</a>
+          <dl class="layui-nav-child">
+            <dd><a href="">移动模块</a></dd>
+            <dd><a href="">后台模版</a></dd>
+            <dd class="layui-this"><a href="">选中项</a></dd>
+            <dd><a href="">电商平台</a></dd>
+          </dl>
+        </li>
+          <li class="layui-nav-item" style="margin-left: 10%"><a href="javascript:;" class="layui-btn">上传作品</a></li>
+          <!-- <li class="layui-nav-item"><a href="javascript:;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+          <li class="layui-nav-item"><a href="javascript:;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+          <li class="layui-nav-item"><a href="javascript:;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li> -->
+          <li class="layui-nav-item notice" style="margin-left: 35%"  data-method="notice"><a href="javascript:;">登录</a></li>
+        
+          <li class="layui-nav-item"><a href="javascript:;">注册</a></li>
+      
+      </ul>
+
+      <!-- 内容 -->
+      <iframe class="layui-col-md12" src="html/home.html" ></iframe>
+     <!--  置顶 -->
+     <a href="#" class="layui-icon layui-icon-top " title="返回顶部"" style="color: green;font-size: 30px; position: fixed;left: 94%;top:87%"></a>
+</body>
+<script src="js/index.js"></script>
+
+</html>
